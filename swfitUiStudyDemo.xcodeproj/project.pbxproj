@@ -83,7 +83,6 @@
 				2076981B2DF72D6500BE6989 /* Sources */,
 				2076981C2DF72D6500BE6989 /* Frameworks */,
 				2076981D2DF72D6500BE6989 /* Resources */,
-				20DCCA572F84EF7100A8C736 /* ShellScript */,
 				A52549EC9A0ED3977C96AFAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -143,23 +142,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20DCCA572F84EF7100A8C736 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ ! -d \"Pods\" ]; then\n  echo \"Installing Pods...\"\n  pod install\nfi\n";
-		};
 		32A71DB2431FADEB65250018 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
