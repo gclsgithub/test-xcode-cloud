@@ -10,14 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-//            Color.blue.ignoresSafeArea()
+            Color.blue.ignoresSafeArea()
             
             VStack {
                 HStack{
                     Image(systemName: "globe")
                         .imageScale(.large)
                         .foregroundStyle(.tint)
-                    Text("Hello, world!")
+                    Text("Hello, world! 123")
                     Text("AABBCCDD")
                     Spacer()
                 }
