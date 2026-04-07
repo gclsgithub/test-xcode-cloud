@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import SDWebImageSwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
@@ -17,6 +17,11 @@ struct ContentView: View {
                     Image(systemName: "globe")
                         .imageScale(.large)
                         .foregroundStyle(.tint)
+                    WebImage(url: URL(string: "https://picsum.photos/300"))
+                                .resizable()
+                                .indicator(.activity)   // 加载中的菊花
+                                .scaledToFit()
+                                .frame(width: 200, height: 200)
                     Text("Hello, world! 123")
                     Text("AABBCCDD")
                     Spacer()
